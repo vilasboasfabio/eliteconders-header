@@ -1,0 +1,154 @@
+
+
+
+.tasklistform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-top: 1%;
+}
+.tasklistform input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.tasklistform input:focus{
+    outline: none;
+    border: 1px solid #212529;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+.tasklistform label{
+    margin-left: 1%;
+    color: #fff;
+}
+.tasklistform hr{
+    margin: 0;
+   margin-top: 4%;
+   margin-left: 1%;
+    margin-bottom: 5%;
+    border: 1px solid #fff;
+    height: 100px;
+}
+.tasklistform button{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgb(46, 84, 136);
+    color: #fff;
+    cursor: pointer;
+}
+.tasklistform button:hover{
+    background-color: #fff;
+    color: #212529;
+    width: 82rem;
+    height: 4rem;
+    transition: 0.8s;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 35px;
+    background-color: #2d2d2d;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   margin-top: 10%;
+   color: #fff;
+   height: 50vh;
+}
+.container h1{
+    margin-bottom: 5%;
+   margin-top: 5%;
+}
+.body{
+   
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+   
+}
+.showtasks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 82%;
+    padding: 20px;
+    background-color: #2d2d2d;
+    border-radius: 5px;
+margin-top: 1%;
+   color: #fff;
+
+ 
+   margin-left: 7.5%;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    overflow-y: scroll;
+    
+   
+}
+.showtasks ul{
+   
+    list-style: none;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-radius: 6px;
+    height: 4rem;
+    padding-top: 3%;
+    padding-left: auto;
+    padding-right: auto;
+    width: 88%;
+}
+.showtasks button{
+    width: 10%;
+    padding: 10px;
+    margin-left: 3%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #2e5488;
+    color: #fff;
+    cursor: pointer;
+}
+.showtasks button:hover{
+    background-color: #fff;
+    color: #212529;
+    width: 8rem;
+    transition: 0.8s;
+}
+    
+    .showtasks strong {
+        display: inline-block; /* Adicione esta propriedade */
+        width: 50%; /* Defina a largura desejada */
+        margin-left: 8%;
+        color: #fff;
+        font-size: 1rem;
+      }
+      
+  
+
